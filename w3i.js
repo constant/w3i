@@ -12,25 +12,25 @@ var w3i = {
 	 * http://www.howtocreate.co.uk/tutorials/javascript/browserwindow
 	 * http://bunnyherolabs.com/dhtml/browser-dimensions-table.html
 	 */
-	innerWidth : function(winObj) {
+	getInnerWidth : function(winObj) {
 		//w3c
 		if (winObj.innerWidth) return winObj.innerWidth;
 		//IE
 		return winObj.document.documentElement.clientWidth;		
 	},
-	innerHeight : function(winObj) {
+	getInnerHeight : function(winObj) {
 		//w3c
 		if (winObj.innerHeight) return winObj.innerHeight;
 		//Microsoft
 		return winObj.document.documentElement.clientHeight;		
 	},
-	pageXOffset : function(winObj) {
+	getPageXOffset : function(winObj) {
 		//w3c
 		if (winObj.pageXOffset) return winObj.pageXOffset;
 		//IE
 		return winObj.document.documentElement.scrollLeft;
 	},
-	pageYOffset : function(winObj) {
+	getPageYOffset : function(winObj) {
 		//w3c
 		if (winObj.pageYOffset) return winObj.pageYOffset;
 		//Microsoft
@@ -256,7 +256,7 @@ var w3i = {
 	 * Based on info from:
 	 * http://www.quirksmode.org/js/events_properties.html
 	 */
-	pageX : function(evtObj) {
+	getPageX : function(evtObj) {
 		if (!evtObj) evtObj = window.event; //tolerant approach
 		//w3c
 		if (evtObj.pageX) return evtObj.pageX;
@@ -267,7 +267,7 @@ var w3i = {
 	 * Based on info from:
 	 * http://www.quirksmode.org/js/events_properties.html
 	 */
-	pageY : function(evtObj) {
+	getPageY : function(evtObj) {
 		if (!evtObj) evtObj = window.event; //tolerant approach
 		//w3c
 		if (evtObj.pageY) return evtObj.pageY;
