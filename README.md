@@ -15,9 +15,10 @@ E.g: <code>myElem.firstElementChild() ==> w3i.firstElementChild(myElem) </code>
 </p>
 <p>
 The library is still in <i>alpha</i>. On the TODO list are still: 
--creating detailed documentation that doubles as web reference for javascript incompatilibities. 
--Creating unit testing suites
--Aiming for IE6+ compatiblity preferably, IE7+ otherwise. Firefox 3.0+ plus compatibility, 3.5+ otherwise. Ensure Safari, Chrome and Opera compatibility - specific oldest versions are yet to be determined.
+<ul>
+<li>creating detailed documentation that doubles as web reference for javascript incompatilibities.</li>
+<li>Creating unit testing suites.</li>
+<li>Aiming for IE6+ compatiblity preferably, IE7+ otherwise. Firefox 3.0+ plus compatibility, 3.5+ otherwise. Ensure Safari, Chrome and Opera compatibility - specific oldest versions are yet to be determined.</li>
 </p>
 <p>
 You can find more details on usage and assumptions, main references, similar libraries of interest, implemented and non implemented function, in the Detailed Guide.
