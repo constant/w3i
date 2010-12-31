@@ -11,7 +11,7 @@ There's a multitude of great libraries that solve cross browser compatibility pr
 </p>
 <p>
 In a nutshell, the way it handles the above goals is that for any W3C function someObj.someFunc(param1, param2) that does not work cross-browser, there is an equivalent w3i function which is called as follows: <code>w3i.someFunc(someObj, param1, param2)</code> <br/>
-E.g: <code>myElem.firstElementChild() ==> w3i.firstElementChild(myElem) </code>
+E.g: <samp>myElem.firstElementChild() ==> w3i.firstElementChild(myElem) </samp>
 </p>
 <p>
 The library is still in <i>alpha</i>. On the TODO list are still: 
